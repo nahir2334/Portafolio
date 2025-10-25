@@ -169,7 +169,6 @@
             background: linear-gradient(135deg, var(--background-color), var(--card-background));
             padding: 80px 0;
             flex-direction: column;
-            transition: background var(--transition-speed);
         }
 
         .hero-content {
@@ -197,12 +196,11 @@
             color: var(--secondary-color);
         }
 
-        #hero p {
+    p {
             font-size: 1.3em;
             margin-bottom: 40px;
             color: var(--text-color);
-            animation: fadeInUp 1s ease-out 0.3s forwards;
-            opacity: 0;
+
         }
 
         /* Secciones Generales */
@@ -586,12 +584,13 @@
     </header>
 
     <!-- Hero Section -->
-    <section id="hero">
-        <div class="hero-content">
-            <img src="logo.jpg">
-            <h1>Hola, soy <span>Nahir</span></h1>
-            <p>Soy desarrolladora web especializada en crear experiencias digitales atractivas y funcionales. Me encanta transformar ideas en soluciones interactivas.</p>
-            <a href="#contact" class="btn">Contáctame</a>
+
+    </section>
+    <section id="skills" class="fade-in">
+        <div class="container">
+            <h2 class="section-title">Hola, soy <span>Nahir Fonseca</span></h2>
+           <p>Soy desarrolladora web especializada en crear experiencias digitales atractivas y funcionales. Me encanta transformar ideas en soluciones interactivas.</p>
+            <a href="#contact" class="btn" >Contáctame</a>
         </div>
     </section>
 
